@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+nav {
+    background-color: rgb(255, 255, 49);
+    grid-column: 1 / -1;
+}
+
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-mercadolibre {
+    height: 50px;
+    display: flex;
+    justify-content: first baseline;
+}
+
+.buscar {
+    height: 40px;
+    align-items: center;
+    position: absolute;
+    left: 40%;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.logo-disney {
+    display: flex;
+    height: 70px;
+    justify-content: flex-end;
+}
+
+.topmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3em;
+}
+
+li.menu-item a {
+    position: relative;
+    color: rgba(51,51,51,.6);
+    text-decoration: none;
+    line-height: 18px;
+    font-size: 14px;
+}
+
+.nav-plus-menu {
+    justify-content: flex-end;
+}
+
+
+#contecarrusel {
+    height: 320px;
+    overflow: hidden;
+}
+
+.carrusel {
+    height: 100%;
+    position: relative;
+}
+
+.tarjetacarrusel {
+    height: 100%;
+}
+
+.flechascarrusel {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#tarjetacarrusel-1 {
+    background-color: rgb(255, 255, 255);
+}
+
+#tarjetacarrusel-2 {
+    background-color: rgb(252, 252, 252);
+    }
+
+#tarjetacarrusel-3 {
+    background-color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+}
+
+#contepuntos {
+    display: flex;
+    justify-content: center;
+}
+
+#contepuntos > a{
+    font-size: 1em;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+aside {
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    max-width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 0;
+    padding: 30px;
+}
+
+
+section {
+    background-color: rgb(255, 255, 255);
+    grid-column: 1/ -1;
+}
+
+
+.carrusel-container {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
